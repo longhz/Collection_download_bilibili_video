@@ -7,3 +7,6 @@ well ... It is a bit big, because it contains ffmpeg and python3.7,
 you can first install these yourself in the system to set the environment variables, 
 and then use my script. 
 I will continue to improve it later 
+
+![](https://cdn.jsdelivr.net/gh/longhz/cdn/images/blog1/202210011139740.png)
+![](https://cdn.jsdelivr.net/gh/longhz/cdn/images/blog1/202210011140513.png)
