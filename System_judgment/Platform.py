@@ -4,7 +4,7 @@ from System_judgment.file_format_cleaning import mkdir_folder
 
 # 判断当前运行平台
 def isWondowsorLinux():
-    ''' 判断当前运行平台 :return: '''
+    ''' 判断当前运行平台 :return:  '''
     sysstr = platform.system()
     if (sysstr == "Windows"):
         return True

@@ -31,7 +31,7 @@ def generate_fav_url(fid: int) -> str:
         pn=1&ps=20&keyword=&order=mtime&type=0&tid=0&platform=web&jsonp=jsonp&
         media_id={fid}
     :param fid: 收藏夹id
-    :return: 获取收藏夹信息url
+    :return: 获取收藏夹信息url 
     """
     return f'https://api.bilibili.com/x/v3/fav/resource/list?ps=1&media_id={fid}'
 

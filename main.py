@@ -8,7 +8,7 @@ from Download.video_download import bili_json
 from System_judgment.Platform import File_dir
 from System_judgment.conf_collection import config_collection
 
-# 日期获取
+# 日期获取 
 def getDate():
     date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     return "当前时间："+date

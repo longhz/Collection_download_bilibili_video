@@ -14,7 +14,7 @@ from System_judgment.file_format_cleaning import mkdir_folder, rm_folder
 def get_response(html_url):
     """
     Args: 发送请求，以及获取数据函数
-        html_url: 请求的url地址
+        html_url: 请求的url地址 
     Returns: 返回请求服务器返回的响应数据
     """
     # 请求代码，在发送请求前，需要进行伪装 headers 请求头
