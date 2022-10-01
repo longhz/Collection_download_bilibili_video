@@ -39,7 +39,18 @@ If you add some information to the bili_collection, then main.py also needs to b
 
 
 ```
-# 下载收藏夹视频
+# 同步收藏夹，第一处修改
+def tb_sc():
+    # ---如果有多个收藏夹，可以仿照下面复制，要记得修改数字---
+    fid_2 = conf.get("bili_collection", "fid_2")
+    fid_2_name = conf.get("bili_collection", "fid_2_name")
+    ins_json(fid_2, fid_2_name, file_dir)
+    
+    # fid_3 = conf.get("bili_collection", "fid_3")
+    # fid_3_name = conf.get("bili_collection", "fid_3_name")
+    # ins_json(fid_2, fid_2_name, file_dir)
+    
+# 下载收藏夹视频，第二处修改
 def download_video():
 
     # ---如果有多个收藏夹，可以仿照下面复制，要记得修改数字---
